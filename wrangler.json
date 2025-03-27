@@ -1,0 +1,30 @@
+{
+  "name": "late-meadow-ac87",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "late-meadow-ac87-d1",
+      "database_id": "06cb1c48-2881-4db9-af67-743f02bbc78e"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "late-meadow-ac87-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
